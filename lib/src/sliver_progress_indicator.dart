@@ -65,7 +65,7 @@ class _SpinnerRenderSliver extends RenderSliver with RenderObjectWithChildMixin<
 
       _paintTransform = Matrix4.identity()
         ..translate(0.0, translation.dy)
-        ..scale(1.2)
+        ..scale(2)
         ..translate(0.0, -translation.dy);
     }
 
