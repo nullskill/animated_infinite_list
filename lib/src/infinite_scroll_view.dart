@@ -179,7 +179,7 @@ class InfiniteScrollView extends ScrollView {
         const SliverFillRemaining(
           hasScrollBody: false,
           fillOverscroll: true,
-          child: CircularProgressIndicator(),
+          child: Center(child: CircularProgressIndicator()),
         ),
       ];
 }
